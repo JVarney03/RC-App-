@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/styling/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+<div class="main">
+    <div class="event_banner">
+        <div class="event_div">
+            <h1 class="event_title">RC racing</h1>
+        </div>
+        
+            <div class="select">
+            <select name="preset" id="preset" class="preset_select">
+              <option value="volvo">RC South Coast</option>
+              <option value="saab">Sorrca</option>
+              <option value="mercedes">Sorrca Light</option>
+            </select> 
+        </div>
+        <div class="settings_div">
+            <button class="control_button" id="opn_button" onclick="openNav()"> 
+                <i class="material-icons settings_icon">settings</i>
+            </button>
+        </div>
+
+    </div>
+    <hr class="event_divide">
+    <div class="player">
+        <div class="player_control">
+            <div class="player_banner">
+                <div class="name_div">
+                    <h1 class="player_name">Controls</h1>
+                </div>
+                <div class="delete_div">
+                   
+                </div>
+            </div>
+            <hr class="player_underline">
+
+            
+            <div class="time_control">
+                <div class="timer_align">
+                    <div class="timer_div">
+                        <div class="display">
+                        <div class="points_div">
+                            <h1 class="points" id="points">0</h1>
+                        </div>
+                        <hr class="display_break">
+                        <div class="time_div">
+                            <h1 class="time" id="stopwatch">00:00</h1>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="timer_controls_div">
+                    <div class="timer_controls">
+                        <button onclick="startTimer()" class="timer_button">Start</button>
+                        <div class="vl"></div>
+                        <button onclick="resetTimer()" class="timer_button">Reset</button>
+                        <div class="vl"></div>
+                        <button onclick="stopTimer()" class="timer_button">Stop</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <hr class="break">
+            
+            <div class="rules" id="rules">
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="settings_main" id="settings_panel">
+        <div class="settings_body" id="settings_body" style="display: none;">
+            <div class="settings_header">
+                <h1 class="sett_title event_title">settings</h1>
+                <button class="control_button" onclick="closeNav()">
+                <i class="material-icons settings_icon close_button">close</i>
+                </button>
+            </div>
+            <hr class="event_divide">
+            <div class="settings_rules" id="settings_rules">
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+<script src="resources/code/firebase.js"></script>
+<script src="resources/code/main.js"></script>
+<script src="resources/code/timer.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,310 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.main {
+    background-color: #3C443C;
+    height: 100%;
+    width: 100%;
+    
+}
+.event_divide {
+    color: #EE6352;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.event_banner {
+    display: flex;
+    height: 8%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.event_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+}
+.event_title {
+    color: #ECA400;
+    font-family: ubuntu;
+    font-size: 20px;
+    padding-left: 2vw;    
+    
+}
+select {
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 10;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  }
+
+.presets_div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    
+.settings_icon {
+    color: #ECA400;
+    padding-right: 6vw;
+    
+}
+.settings_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+.player {
+    height: 80%;
+}
+.player_control {
+    height: auto;
+}
+.player_banner {
+    display: flex;
+    height: 8%;
+    align-items: center;
+    justify-content: space-around;
+}
+.name_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.player_name {
+    font-family: ubuntu;
+    color: #ECA400;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 18px;
+}
+.delete_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+.delete_icon {
+    color: #ECA400;
+    padding-right: 6vw;
+}
+.player_underline {
+    color: #7FD1B9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 30vw;
+}
+.time_control {
+    height: auto;
+}
+.timer_align {
+    display: flex;
+    padding-top: 5vh;
+    padding-bottom: 8vh;
+    align-items: center;
+    justify-content: center;
+}
+.timer_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #2E382E;
+    border: 3px solid #EE6352;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+      
+}
+.points_div {
+    display: flex;
+    justify-content: center;
+}
+.points {
+    color: #ECA400;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+}
+.time_div {
+    display: flex;
+}
+.time {
+    color: #ECA400;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+}
+.display_break {
+    color: #EE6352;
+    width: 100%;
+}
+.timer_controls_div{
+    display: flex;
+    justify-content: center;
+}
+.timer_button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #ECA400;
+}
+.timer_controls {
+    height: 7vh;
+    width: 80%;
+    background: #2E382E;
+    border: 2px solid #EE6352;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+.run_control {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+}
+.run_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2E382E;
+    border: 2px solid #EE6352;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 30vw;
+    height: 5vh;
+}
+.control_txt {
+    color: #ECA400;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+.break {
+    height: 3px;
+    background-color: #2E382E;
+    border: none;
+}
+
+.rules {
+    height: auto;
+}
+.rule {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6vh;
+}
+
+.rule_txt {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ECA400;
+}
+.points_rule_txt {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ECA400;
+}
+
+.rule_control {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4vh;
+    width: 20vw;
+    background: #2E382E;
+    border: 2px solid #EE6352;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.vl {
+    border-left: 3px solid #EE6352;
+    height: 80%;
+}
+
+.rule_width {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.point_button {
+    color: #FFFFFF;
+}
+.control_holder {
+    display: flex;
+    align-items: center;
+}
+.control_button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.settings_main {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2E382E;
+    width: 0;
+    height: 100vh;
+    transition: 0.5s;
+    
+}
+.settings_body {
+    opacity: 0;
+    
+}
+.settings_header {
+    display: flex;
+    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.close_button {
+   padding: 0;
+}
+.sett_title {
+    margin-left: 30vw;
+    margin-right: 20vw;
+}
+
